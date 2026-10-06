@@ -1,0 +1,10 @@
+# Compilados de Maven
+target/
+
+# Datos que genera el programa en tiempo de ejecucion.
+# Los datos de muestra versionados estan en datos_ejemplo/.
+datos/
+
+# NetBeans
+nbproject/private/
+nbactions.xml

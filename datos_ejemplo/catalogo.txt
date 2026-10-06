@@ -1,0 +1,4 @@
+PRD-001;Lapiz HB
+PRD-002;Cuaderno rayado 100 hojas
+PRD-003;Borrador blanco
+PRD-004;Resma papel bond carta
