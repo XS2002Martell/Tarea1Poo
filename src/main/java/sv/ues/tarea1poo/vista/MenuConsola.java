@@ -42,7 +42,7 @@ public class MenuConsola {
         this.servicio = servicio;
     }
 
-    public void iniciar() {
+       public void iniciar() {
         int opcion;
         do {
             mostrarMenu();

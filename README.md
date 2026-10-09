@@ -58,6 +58,24 @@ cp datos_ejemplo/*.txt datos/
 Para ver en cambio la creación de la carpeta desde cero, borrar `datos/` antes
 de ejecutar.
 
+## Diagramas
+
+`docs/Tarea1Poo-diagramas.drawio` contiene cuatro páginas (pestañas abajo):
+
+1. **Diagrama de clases** — las 16 clases agrupadas por paquete, con atributos,
+   métodos, cláusulas `throws` y las relaciones entre ellas.
+2. **Jerarquía de excepciones** — el árbol completo desde `Throwable`, marcando
+   qué es verificada y qué no, y dónde se lanza cada una.
+3. **Manejo de excepciones** — dónde nace cada excepción (`throw`), cómo sube
+   (`throws`) y dónde se captura (`catch`), con el número de línea de cada
+   bloque `try`, `catch` y `finally`.
+4. **Casos de uso** — el encargado de inventario y las 11 funciones del sistema,
+   con el comportamiento compartido como `«include»` y cada flujo de error como
+   `«extend»`.
+
+Se abre en [app.diagrams.net](https://app.diagrams.net) con `File` → `Open From`
+→ `Device`, o directamente en NetBeans/VS Code con una extensión de draw.io.
+
 ## Estructura del proyecto
 
 ```
